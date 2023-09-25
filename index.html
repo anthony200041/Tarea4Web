@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numero_1= parseInt(prompt("Introduce el primer numero"));
+        var numero_2= parseInt(prompt("Introduce el segundo numero"));
+        for(i=1; i<=5; i++)
+        {
+            switch (i){
+
+                    /*Caso 1: La suma de los dos valores ingresados*/
+                    case 1: 
+                    resultado= numero_1+numero_2
+                    alert( "suma:"+ resultado);
+                    break;
+
+                    /*Caso 2: Resta de los dos valores ingresados*/
+                    case 2: 
+                    resultado= numero_1 - numero_2
+                    alert("resta:"+ resultado);	
+                    break;
+
+                    /*Caso 3: Multiplicacion de los dos valores ingresados*/
+                    case 3:
+                    resultado= numero_1 * numero_2
+                    alert( "multiplicacion:" + resultado);
+                    break;
+
+                    /*Caso 4: Division de los dos valores numericos ingresados*/
+                    case 4:
+                    resultado= numero_1/ numero_2;
+                    alert("division:"+resultado);
+                    break;
+
+                    /*Caso 5: Residuo de los valores ingresados*/
+                    case 5: 
+                    resultado= numero_1 % numero_2;
+                    alert ("mod:"+ resultado);
+
+}
+};
+    </script>
+</body>
+</html>
